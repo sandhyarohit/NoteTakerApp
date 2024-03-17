@@ -1,0 +1,10 @@
+This application is a simple note taking application. 
+
+{url  (login / sign-up screen) }  ----> {Notes-Page list for a logged in user} ----> {Specific Selected Note}
+ |                     |
+ |                     |
+ |_ _ Sign-up _ _ _ Valid Sign up
+             |
+             |
+             |
+     In-Valid Sign-up         

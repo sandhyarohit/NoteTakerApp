@@ -7,11 +7,10 @@ function submitForm() {
         password: password
     };
 
-    fetch('http://192.168.29.248:80/app/notetaker/create', {
+    fetch('http://192.168.29.248:3000/app/noteTaker/create', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
-            'Origin': 'http://192.168.29.253'
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify(data),
     })

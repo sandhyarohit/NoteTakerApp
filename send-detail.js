@@ -7,7 +7,7 @@ function submitForm() {
         password: password
     };
 
-    fetch('http://192.168.29.248:3000/api/notetaker/create', {
+    fetch('http://192.168.29.248:80/app/notetaker/create', {
  //   fetch('http://192.168.29.248:3000/', {
         method: 'POST',
         headers: {
